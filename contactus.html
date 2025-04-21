@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact ACE Consultants - Book Your Appointment</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/contactus.css">
+</head>
+<body>
+    <!-- Pop-Up -->
+    <div id="popup">
+      <button class="popup-close" id="popupCloseBtn">&times;</button>
+      <h2>Welcome to ACE Consultants – Ready to Take the Next Step?</h2>
+      <p>Book your appointment today and get <strong>20% off</strong> your first consultation!</p>
+      <button class="show-form-button" onclick="showForm()">Book Now</button>
+    </div>
+  
+    <!-- Navigation -->
+    <!-- Navigation Bar -->
+  <nav id="mainNav">
+    <div class="nav-container">
+        <a href="index.html" class="logo">ACE <span>Consultants</span></a>
+        
+        <ul class="nav-links">
+            <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="services.html"><i class="fas fa-concierge-bell"></i> Services</a></li>
+            <li><a href="countries.html"><i class="fas fa-globe"></i> Countries</a></li>
+            <li><a href="ieltsify.html"><i class="fas fa-language"></i> IELTSIFY</a></li>
+            <li><a href="aboutus.html"><i class="fas fa-info-circle"></i> About Us</a></li>
+            <li><a href="contactus.html"><i class="fas fa-envelope"></i> Contact Us</a></li>
+            <li><a href="blogs.html"><i class="fas fa-blog"></i> Blogs</a></li>
+        </ul>
+        
+        <button class="hamburger" id="hamburger">
+            <i class="fas fa-bars"></i>
+        </button>
+    </div>
+  </nav>
+  
+  <!-- Mobile Navigation -->
+  <div class="overlay" id="overlay"></div>
+  <div class="mobile-nav" id="mobileNav">
+    <ul class="mobile-nav-links">
+        <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+        <li><a href="services.html"><i class="fas fa-concierge-bell"></i> Services</a></li>
+        <li><a href="countries.html"><i class="fas fa-globe"></i> Countries</a></li>
+        <li><a href="ieltsify.html"><i class="fas fa-language"></i> IELTSIFY</a></li>
+        <li><a href="aboutus.html"><i class="fas fa-info-circle"></i> About Us</a></li>
+        <li><a href="contactus.html"><i class="fas fa-envelope"></i> Contact Us</a></li>
+        <li><a href="blogs.html"><i class="fas fa-blog"></i> Blogs</a></li>
+    </ul>
+  </div>
+  
+    <!-- Main Content -->
+    <section id="contact-us">
+      <div class="hero">
+        <h1>Contact ACE Consultants</h1>
+        <p>Book Your Appointment Today and Start Your Journey to Success!</p>
+      </div>
+  
+      <div class="intro">
+        <h2>Get In Touch with Us</h2>
+        <p>We provide personalized attention and expert guidance for study abroad, IELTS, and immigration. Let us help you build your future!</p>
+        <p>Fill out the form below to book your appointment with our consultants.</p>
+      </div>
+  
+      <button class="show-form-button" onclick="showForm()">
+        <i class="fas fa-calendar-check"></i> Click to Book Appointment
+      </button>
+  
+      <div class="google-form" id="googleFormContainer">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScLdCCnSvwRs4kd0isxeEslwq84OSnVTLxAPV98ng6f9mZ3OA/viewform?usp=header"></iframe>
+      </div>
+  
+      <div class="location">
+        <h2><i class="fas fa-map-marker-alt"></i> Visit Us at Our Office</h2>
+        <p>Open Monday to Friday, 10AM to 7 PM</p>
+        <p><strong>Address:</strong> 3rd Floor, Abdullah Plaza, Commercial Market, Chaklala Scheme 3</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.76084560569!2d73.0864095748583!3d33.585558173336274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfed9fc6639553%3A0xb5539e8a9e72a12a!2sAce%20Consultants!5e0!3m2!1sen!2s!4v1744237861172!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>" </iframe>
+      </div>
+    </section>
+    
+  
+    <!-- Footer -->
+    <footer>
+      <div class="contact-info">
+        <h2><i class="fas fa-address-card"></i> Contact Info</h2>
+        <p><strong><i class="fas fa-phone"></i> Phone:</strong> +92 335 8554590</p>
+        <p><strong><i class="fas fa-envelope"></i> Email:</strong> info@aceconsultants.com</p>
+        <p><strong><i class="fas fa-globe"></i> Website:</strong> <a href="index.html">www.aceconsultants.com</a></p>
+        <div>
+          <a href="tel:+923358554590" class="cta-button"><i class="fas fa-phone"></i> Call Us</a>
+          <a href="acexieltsify@gmail.com" class="cta-button"><i class="fas fa-envelope"></i> Email Us</a>
+        </div>
+      </div>
+      <p>&copy; 2025 ACE Consultants. All Rights Reserved.</p>
+      <p>
+        <a href="privacy.html">Privacy Policy</a> | 
+        <a href="terms.html">Terms of Service</a>
+      </p>
+    </footer>
+  
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/923358554590" target="_blank" class="whatsapp-float">
+      <i class="fab fa-whatsapp"></i> WhatsApp Us
+    </a>
+  
+    <!-- Google Map Floating Button -->
+     
+    <a href="https://maps.app.goo.gl/9igXr9iQdXYnnjos9" target="_blank" class="map-float">
+      <i class="fas fa-map-marked-alt"></i> View Map
+    </a>
+    <script src="js/contactus.js"></script>
+
+</body>
+</html>
